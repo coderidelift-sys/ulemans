@@ -160,10 +160,10 @@
       "photo": "./assets/images/f1.jpeg"
     },
     "bride": {
-      "name": "Herliana Puspita Dewi",
+      "name": "Marliana Puspita Dewi",
       "nickname": "Lian",
       "childOrder": "Putri ke-2",
-      "parents": "Bapak Mardi Yana & Ibu Dewi Sartika",
+      "parents": "Bapak Mardiyana & Ibu Dewi Sartika",
       "photo": "./assets/images/f2.jpeg"
     },
     "initials": "A • L"
@@ -181,9 +181,9 @@
   "family": {
     "title": "Family",
     "groomSideTitle": "Keluarga Bapak Nanan Sulaeman",
-    "brideSideTitle": "Keluarga Bapak Mardi Yana",
+    "brideSideTitle": "Keluarga Bapak Mardiyana",
     "groomSide": ["Bapak Nanan Sulaeman", "Ibu Nirah", "Keluarga Besar"],
-    "brideSide": ["Bapak Mardi Yana", "Ibu Dewi Sartika", "Keluarga Besar"],
+    "brideSide": ["Bapak Mardiyana", "Ibu Dewi Sartika", "Keluarga Besar"],
     "alsoInviteTitle": "Turut Mengundang",
     "alsoInvite": [
       "Ibu Nirah (Ening)",
@@ -199,9 +199,9 @@
       "Kusmiati (Bibi)",
       "Wedid (Adik)",
       "Nizar (Adik)",
-      "Hafimah (Adik)",
+      "Halimah (Adik)",
       "Erik (Kakak Sepupu)",
-      "Nenang (Kakak Sepupu)",
+      "Nanang (Kakak Sepupu)",
       "Abuy (Kakak Sepupu)"
     ]
   },
