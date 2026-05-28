@@ -231,7 +231,7 @@
     "title": "Digital Gift",
     "subtitle": "Doa restu sudah lebih dari cukup. Namun jika berkenan berbagi, dapat melalui:",
     "accounts": [
-      { "bank": "BCA", "name": "Asep Sukaendar", "number": "1234567890" },
+      { "bank": "BCA", "name": "Asep Sukandar", "number": "1234567890" },
       { "bank": "BRI", "name": "Herliana Puspita Dewi", "number": "0987654321" }
     ],
     "qris": {
