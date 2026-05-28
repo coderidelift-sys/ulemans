@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7f4ef" />
+    <meta name="color-scheme" content="light" />
+
+    <title>Undangan | Ngunduh Mantu</title>
+    <meta name="description" content="Undangan digital Ngunduh Mantu. Mohon kehadiran dan doa restu." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <link rel="canonical" href="./" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Undangan | Ngunduh Mantu" />
+    <meta property="og:description" content="Undangan digital Ngunduh Mantu. Mohon kehadiran dan doa restu." />
+    <meta property="og:site_name" content="Undangan Digital" />
+    <meta property="og:url" content="./" />
+    <meta property="og:image" content="./assets/images/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="id_ID" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Undangan | Ngunduh Mantu" />
+    <meta name="twitter:description" content="Undangan digital Ngunduh Mantu. Mohon kehadiran dan doa restu." />
+    <meta name="twitter:image" content="./assets/images/og.jpg" />
+
+    <link rel="preconnect" href="." />
+
+    <link rel="preload" href="./assets/fonts/PlayfairDisplay-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/fonts/Inter-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/fonts/GreatVibes-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/images/hero.jpg" as="image" fetchpriority="high" />
+    <script src="https://code.iconify.design/iconify-icon/3.0.2/iconify-icon.min.js"></script>
+
+    <style>
+      :root{
+        --bg:#f7f4ef;
+        --surface:#fffdf9;
+        --text:#2d2a26;
+        --muted:#7a746d;
+        --accent:#b68b6a;
+        --accent-soft:#d7b79d;
+        --ring: rgba(182,139,106,.35);
+        --shadow: 0 18px 50px rgba(45,42,38,.08);
+        --radius: 18px;
+        --radius-sm: 12px;
+        --space: 18px;
+        --max: 1080px;
+        --safe-top: env(safe-area-inset-top);
+        --safe-bot: env(safe-area-inset-bottom);
+      }
+      @font-face{
+        font-family: "Display";
+        src: url("./assets/fonts/PlayfairDisplay-Variable.woff2") format("woff2");
+        font-display: swap;
+        font-weight: 300 900;
+        font-style: normal;
+      }
+      @font-face{
+        font-family: "Body";
+        src: url("./assets/fonts/Inter-Variable.woff2") format("woff2");
+        font-display: swap;
+        font-weight: 100 900;
+        font-style: normal;
+      }
+      @font-face{
+        font-family: "Script";
+        src: url("./assets/fonts/GreatVibes-Regular.woff2") format("woff2");
+        font-display: swap;
+        font-weight: 400;
+        font-style: normal;
+      }
+      *{ box-sizing: border-box; }
+      html,body{ height: 100%; }
+      body{
+        margin:0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Body, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+        line-height: 1.55;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        overflow-x:hidden;
+      }
+      a{ color: inherit; text-decoration: none; }
+      button, input, select, textarea{ font: inherit; color: inherit; }
+      img{ max-width:100%; display:block; }
+      :focus-visible{ outline: 2px solid var(--ring); outline-offset: 3px; border-radius: 10px; }
+
+      .sr-only{
+        position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+      }
+
+      /* App root */
+      #app{ min-height: 100%; }
+
+      /* Reveal system */
+      [data-reveal]{
+        opacity: 0;
+        transform: translate3d(0,14px,0);
+        filter: blur(6px);
+        transition: opacity 700ms cubic-bezier(.2,.8,.2,1), transform 700ms cubic-bezier(.2,.8,.2,1), filter 900ms cubic-bezier(.2,.8,.2,1);
+        will-change: transform, opacity;
+      }
+      [data-reveal].is-in{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        filter: blur(0);
+      }
+
+      /* Soft press */
+      .btn{
+        border:0;
+        background: transparent;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+      }
+      .btn-primary{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        padding: 14px 18px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, rgba(182,139,106,.95), rgba(182,139,106,.82));
+        color: #fff;
+        box-shadow: 0 18px 40px rgba(182,139,106,.22);
+        transform: translate3d(0,0,0);
+        transition: transform 160ms ease, box-shadow 240ms ease, filter 240ms ease;
+      }
+      .btn-primary:active{ transform: translate3d(0,1px,0) scale(.99); filter: brightness(.98); }
+      .btn-ghost{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        padding: 12px 16px;
+        border-radius: 999px;
+        background: rgba(255,253,249,.72);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(182,139,106,.22);
+        box-shadow: 0 10px 30px rgba(45,42,38,.10);
+        transition: transform 160ms ease, background 240ms ease;
+      }
+      .btn-ghost:active{ transform: translate3d(0,1px,0) scale(.99); }
+
+      /* Modal */
+      .modal{
+        position: fixed;
+        inset: 0;
+        display:none;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+        z-index: 1000;
+      }
+      .modal.is-open{ display:flex; }
+      .modal__backdrop{
+        position:absolute;
+        inset:0;
+        background: rgba(20,18,16,.58);
+        backdrop-filter: blur(10px);
+      }
+      .modal__card{
+        position: relative;
+        width: min(980px, 100%);
+        max-height: min(82vh, 760px);
+        border-radius: 20px;
+        background: rgba(255,253,249,.92);
+        border: 1px solid rgba(182,139,106,.22);
+        box-shadow: 0 30px 90px rgba(0,0,0,.28);
+        overflow: hidden;
+      }
+      .modal__top{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(182,139,106,.16);
+      }
+      .modal__title{
+        font-family: Display, serif;
+        font-size: 14px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .modal__body{ padding: 12px; }
+
+      /* Reduced motion */
+      @media (prefers-reduced-motion: reduce){
+        *{ scroll-behavior: auto !important; }
+        [data-reveal]{ transition: none; opacity: 1; transform:none; filter:none; }
+        .btn-primary,.btn-ghost{ transition: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="sr-only" href="#main">Lewati ke konten utama</a>
+    <!-- Font warmup: mark preloaded fonts as used early (avoid DevTools warning) -->
+    <div aria-hidden="true" style="position:absolute;inset:auto auto auto auto;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;opacity:0">
+      <span style="font-family:Display,serif">A</span>
+      <span style="font-family:Body,system-ui">A</span>
+      <span style="font-family:Script,cursive">A</span>
+    </div>
+    <div id="app"></div>
+
+    <noscript>
+      <div style="padding:18px;max-width:720px;margin:24px auto;background:#fffdf9;border:1px solid rgba(182,139,106,.22);border-radius:16px">
+        Website ini membutuhkan JavaScript untuk menampilkan undangan.
+      </div>
+    </noscript>
+
+    <script type="application/ld+json" id="ldjson-event"></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

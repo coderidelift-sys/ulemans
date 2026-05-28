@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "siteName": "Undangan Digital",
+    "title": "Ngunduh Mantu Asep & Lian",
+    "description": "Undangan Ngunduh Mantu. Dengan hormat kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu.",
+    "url": "",
+    "ogImage": "./assets/images/og.jpg"
+  },
+  "id": "ngunduhmantu-asep-lian-20260607",
+  "language": "id",
+  "timezone": "Asia/Jakarta",
+  "theme": {
+    "colors": {
+      "bg": "#f7f4ef",
+      "surface": "#fffdf9",
+      "text": "#2d2a26",
+      "muted": "#7a746d",
+      "accent": "#b68b6a",
+      "accentSoft": "#d7b79d"
+    },
+    "radius": {
+      "sm": 12,
+      "md": 18,
+      "lg": 26
+    },
+    "spacing": {
+      "page": 18,
+      "sectionY": 54,
+      "maxWidth": 1080
+    },
+    "typography": {
+      "displayFamily": "Display",
+      "bodyFamily": "Body",
+      "scriptFamily": "Script",
+      "displayTracking": "0.02em"
+    }
+  },
+  "motion": {
+    "durations": {
+      "fast": 160,
+      "base": 240,
+      "slow": 520,
+      "reveal": 700
+    },
+    "easing": {
+      "standard": "cubic-bezier(.2,.8,.2,1)",
+      "easeOut": "cubic-bezier(.16,1,.3,1)"
+    },
+    "reveal": {
+      "distanceY": 14,
+      "durationMs": 700,
+      "staggerMs": 80,
+      "rootMargin": "0px 0px -12% 0px"
+    },
+    "parallax": {
+      "enabled": true,
+      "maxPx": 16
+    },
+    "snap": {
+      "enabled": true,
+      "minWidth": 980
+    }
+  },
+  "sections": {
+    "preloader": true,
+    "cover": true,
+    "hero": true,
+    "countdown": true,
+    "couple": true,
+    "event": true,
+    "story": false,
+    "family": true,
+    "gallery": false,
+    "gift": false,
+    "rsvp": false,
+    "wishes": false,
+    "location": true,
+    "footer": true
+  },
+  "copy": {
+    "openInvitation": "Open Invitation",
+    "openMaps": "Open Maps",
+    "viewQR": "Lihat QR",
+    "viewQRIS": "Lihat QRIS",
+    "prev": "Prev",
+    "next": "Next",
+    "toastWelcome": "Selamat menikmati undangan.",
+    "toastCopied": "Nomor rekening tersalin.",
+    "toastCopyFail": "Gagal menyalin. Silakan salin manual."
+  },
+  "nav": {
+    "activeSectionLabels": {
+      "hero": "Opening",
+      "countdown": "Countdown",
+      "couple": "Couple",
+      "event": "Event",
+      "story": "Story",
+      "family": "Family",
+      "gallery": "Gallery",
+      "gift": "Gift",
+      "rsvp": "RSVP",
+      "wishes": "Wishes",
+      "location": "Location",
+      "footer": "Closing"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero": "./assets/images/hero1.jpeg",
+      "heroAlt": "Nuansa hangat dan elegan",
+      "bride": "./assets/images/bride.jpg",
+      "groom": "./assets/images/groom.jpg",
+      "ornamentCorner": "./assets/images/ornament-corner.svg",
+      "qris": "./assets/images/qris.png"
+    },
+    "music": {
+      "src": "./assets/music/bg.mp3",
+      "title": "Background Music"
+    }
+  },
+  "event": {
+    "type": "Ngunduh Mantu",
+    "title": "Resepsi Pernikahan",
+    "dateISO": "2026-06-07",
+    "time": "09:00 WIB",
+    "startTime24": "09:00",
+    "endTime": "Selesai",
+    "venue": {
+      "name": "Kediaman Keluarga Bapak Nanan Sulaeman",
+      "address": "Jln Rancamaya, Gang Dodol RT.2/RW.1",
+      "mapsUrl": "https://maps.app.goo.gl/uVfFsGPhpWPQ1z1dA?g_st=ic",
+      "embedUrl": "https://www.google.com/maps?q=Jln%20Rancamaya%2C%20Gang%20Dodol%20RT.2%2FRW.1&output=embed",
+      "qrMapImage": "./assets/images/qr-maps.png"
+    },
+    "dresscode": {
+      "enabled": true,
+      "label": "Dresscode",
+      "value": "Ivory / Earth tone (opsional)"
+    }
+  },
+  "cover": {
+    "kicker": "Ngunduh Mantu",
+    "headline": "Asep & Lian",
+    "dateText": "Minggu, 7 Juni 2026",
+    "cta": "Open Invitation",
+    "toLabel": "Kepada Yth",
+    "toFallback": "Tamu Undangan"
+  },
+  "opening": {
+    "greeting": "Assalamu'alaikum Warahmatullahi Wabarakatuh",
+    "verse": "Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara Ngunduh Mantu putra-putri kami.",
+    "note": "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir serta memberikan doa restu."
+  },
+  "couple": {
+    "groom": {
+      "name": "Asep Sukaendar",
+      "nickname": "Asep",
+      "childOrder": "Putra ke-1",
+      "parents": "Bapak Nanan Sulaeman & Ibu Nirah",
+      "photo": "./assets/images/f1.jpeg"
+    },
+    "bride": {
+      "name": "Herliana Puspita Dewi",
+      "nickname": "Lian",
+      "childOrder": "Putri ke-2",
+      "parents": "Bapak Mardi Yana & Ibu Dewi Sartika",
+      "photo": "./assets/images/f2.jpeg"
+    },
+    "initials": "A • L"
+  },
+  "story": {
+    "title": "Our Story",
+    "subtitle": "Perjalanan singkat yang mengantarkan kami pada janji yang sama.",
+    "timeline": [
+      { "date": "2019", "title": "First Meet", "desc": "Berawal dari pertemuan sederhana yang perlahan menjadi tempat pulang." },
+      { "date": "2021", "title": "Relationship", "desc": "Kami belajar memahami, bertumbuh, dan saling menguatkan." },
+      { "date": "2025", "title": "Engagement", "desc": "Dengan izin Allah, kami memantapkan niat untuk melangkah lebih jauh." },
+      { "date": "2026", "title": "Wedding", "desc": "Bismillah, kami memulai bab baru: seumur hidup." }
+    ]
+  },
+  "family": {
+    "title": "Family",
+    "groomSideTitle": "Keluarga Bapak Nanan Sulaeman",
+    "brideSideTitle": "Keluarga Bapak Mardi Yana",
+    "groomSide": ["Bapak Nanan Sulaeman", "Ibu Nirah", "Keluarga Besar"],
+    "brideSide": ["Bapak Mardi Yana", "Ibu Dewi Sartika", "Keluarga Besar"],
+    "alsoInviteTitle": "Turut Mengundang",
+    "alsoInvite": [
+      "Ibu Nirah (Ening)",
+      "Bapak Nanan Sulaeman",
+      "Kd Besar (Alm) Bapak Saji",
+      "Kd Besar (Alm) Bapak Uci",
+      "Bapak Hasan (Acang)",
+      "Bapak Edih",
+      "Bapak Hudri",
+      "Bapak Endang (Ketua RT 02)",
+      "Bapak Uci (Ketua RW 01)",
+      "Yuni (Adik)",
+      "Kusmiati (Bibi)",
+      "Wedid (Adik)",
+      "Nizar (Adik)",
+      "Hafimah (Adik)",
+      "Erik (Kakak Sepupu)",
+      "Nenang (Kakak Sepupu)",
+      "Abuy (Kakak Sepupu)"
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Potongan momen — sederhana, hangat, dan bermakna.",
+    "groups": [
+      {
+        "label": "Prewedding",
+        "images": [
+          { "src": "./assets/images/gallery-01.jpg", "alt": "Prewedding 01", "w": 1066, "h": 1600 },
+          { "src": "./assets/images/gallery-02.jpg", "alt": "Prewedding 02", "w": 1066, "h": 1600 },
+          { "src": "./assets/images/gallery-03.jpg", "alt": "Prewedding 03", "w": 1600, "h": 1066 },
+          { "src": "./assets/images/gallery-04.jpg", "alt": "Prewedding 04", "w": 1600, "h": 1066 }
+        ]
+      },
+      {
+        "label": "Family",
+        "images": [
+          { "src": "./assets/images/gallery-05.jpg", "alt": "Family 01", "w": 1600, "h": 1055 },
+          { "src": "./assets/images/gallery-06.jpg", "alt": "Family 02", "w": 1066, "h": 1600 }
+        ]
+      }
+    ]
+  },
+  "gift": {
+    "title": "Digital Gift",
+    "subtitle": "Doa restu sudah lebih dari cukup. Namun jika berkenan berbagi, dapat melalui:",
+    "accounts": [
+      { "bank": "BCA", "name": "Asep Sukaendar", "number": "1234567890" },
+      { "bank": "BRI", "name": "Herliana Puspita Dewi", "number": "0987654321" }
+    ],
+    "qris": {
+      "enabled": true,
+      "label": "QRIS",
+      "image": "./assets/images/qris.png"
+    }
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "subtitle": "Konfirmasi kehadiran Anda membantu kami mempersiapkan dengan lebih baik.",
+    "maxGuests": 5,
+    "attendanceOptions": [
+      { "value": "hadir", "label": "Hadir" },
+      { "value": "tidak_hadir", "label": "Tidak Hadir" }
+    ],
+    "noteLocalOnly": "Tersimpan di perangkat ini."
+  },
+  "wishes": {
+    "title": "Wishes",
+    "subtitle": "Titip doa terbaik untuk kami.",
+    "seed": [
+      { "name": "Tamu Undangan", "attendance": "hadir", "guests": 2, "message": "Semoga menjadi keluarga sakinah, mawaddah, warahmah.", "timeISO": "2026-05-28T08:00:00.000Z" },
+      { "name": "Sahabat", "attendance": "hadir", "guests": 1, "message": "Barakallahu lakuma wa baraka 'alaikuma.", "timeISO": "2026-05-28T09:20:00.000Z" }
+    ]
+  },
+  "location": {
+    "title": "Location",
+    "subtitle": "Klik untuk petunjuk arah.",
+    "buttonLabel": "Open Maps"
+  },
+  "music": {
+    "enabled": true,
+    "defaultMuted": true
+  },
+  "footer": {
+    "title": "Thank You",
+    "closing": "Wassalamu'alaikum Warahmatullahi Wabarakatuh",
+    "prayer": "Semoga Allah SWT menjadikan kami keluarga yang sakinah, mawaddah, warahmah.",
+    "credit": "Made by Nizar"
+  }
+}
